@@ -105,3 +105,22 @@ a{
     line-height: 110%;
     color:white;
 }
+
+.card_cont_tablet_adaptive{
+    background:white;
+    display: flex;
+    justify-content: center;
+}
+.card_cont_tablet_adaptive img{
+    border-radius: 8px 0 0 8px;
+}
+@media(min-width:768px){
+   .card_cont_tablet_adaptive{
+    visibility: hidden;
+   } 
+}
+@media (max-width: 768px) {
+    .card_container{
+        visibility: hidden;
+    }
+  }
