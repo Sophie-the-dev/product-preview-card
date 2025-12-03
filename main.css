@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --grey: #6C7289;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F2EAE2;
+}
+main{
+    width:100%;
+    max-width:1440px;
+    height:1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_container{
+    background-color: #fff;
+    border-radius: 8px;
+    width: 350px;
+    height: 750px;
+    
+}
+img{
+    border-radius: 8px 8px 0 0;
+}
+.main_info{
+    
+    margin: 32px;
+    width: 286px;
+    height: 344px;
+}
+.perfume{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 120%;
+    letter-spacing: 0.42em;
+    color: var(--grey);
+    
+}
+.gab{
+    padding-top: 24px;
+    font-family:Fraunces;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    color:black;
+}
+.paragraph{
+    padding-top: 24px;
+    font-family:Montserrat;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    color: var(--grey);
+}
+.pricecont{
+    margin-top: 24px;
+    width: 191px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pricetag{
+    font-family:Fraunces;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    color: #3D8168;
+}
+span{
+    font-family:Montserrat;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 120%;
+    text-decoration: line-through;
+    color: var(--grey);
+}
+
+.button{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 16px 32px;
+    width: 286px;
+    gap:5px;
+    background-color:#3D8168;
+}
+.fa-solid{
+    color:white;
+}
+a{
+    text-decoration: none;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 110%;
+    color:white;
+}
